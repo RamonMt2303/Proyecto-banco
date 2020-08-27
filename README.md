@@ -1,2 +1,2 @@
-# Proyecto-desempleo
-Yo voy a escoger como problema el desempleo, y de ahí surge mi proyecto, crear un programa que sea como un buscador de empleo, donde las empresas buscan ciertas características de un trabajador que les gustaría que se incorporara a su empresa, y el usuario, podría meter un currículum online, para así ser almacenados varios curriculum para que la búsqueda de las empresas sea más eficiente, o viceversa, si alguien busca empleo, de acuerdo a las características dadas por el usuario.
+# Proyecto-videojuegos
+Yo voy a escoger como tema de mi proyecto los videojuegos, voy a hacerle un quizz a las personas acerca de historia general de videojuegos, y en base a eso ver si son conocedores del tema, constará de 10 preguntas, y en base a las preguntas correctas, recibirán desde un "puedes mejorar"  hasta un "felicidades, eres un verdadero gamer"
