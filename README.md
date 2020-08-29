@@ -1,2 +1,2 @@
-# Proyecto desempleo
-Yo voy a escoger como problema el desempleo, y de ahí surge mi proyecto, crear un programa que sea como un buscador de empleo, donde las empresas buscan ciertas características de un trabajador que les gustaría que se incorporara a su empresa, y el usuario, podría meter un currículum online, para así ser almacenados varios curriculum para que la búsqueda de las empresas sea más eficiente, o viceversa, si alguien busca empleo, de acuerdo a las características dadas por el usuario.
+# Proyecto 
+Yo voy a escoger como proyecto un programa que haga la simulación de un cajero automático a la hora de realizar depósitos y retiros monetarios
