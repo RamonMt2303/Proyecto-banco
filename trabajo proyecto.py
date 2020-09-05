@@ -8,7 +8,7 @@ saldo = 0
 deposito = float(input("Ingrese la cantidad a depositar"))
 while deposito <= 0:
     print("Eso no es un número válido")
-    deposito = float(input("Ingrese un número entero y sin decimales válido"))
+    deposito = float(input("Ingrese una cantidad válida"))
   
 print("Accediendo al sistema")
 
