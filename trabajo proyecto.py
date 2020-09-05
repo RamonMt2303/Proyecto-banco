@@ -14,6 +14,7 @@ print("Accediendo al sistema")
 
 print("Usted está a punto de depositar:",deposito,"¿Es correcto?")
 confirmacion = int(input("Ingrese 0 si desea cancelarlo, o 1 si desea continuar"))
+
 if confirmacion == 0:
     print ("Cancelando transacción")
 else:
@@ -21,6 +22,19 @@ else:
     sum = saldo + deposito
     saldo = sum
     print ("Su saldo actual es de:",saldo)
+
+ahorro = saldo
+print ("¿Desea hacer algún retiro?")
+confirmacion_retiro = int(input("Ingrese 2 si desea cancelarlo, o 3 si desea continuar"))
+if confirmacion_retiro == 2:
+    print ("Cancelando transacción")
+else:
+    print ("Accediendo al sistema")
+    retiro = float(input("Ingrese el monto a retirar"))
+    def saldo (ahorro, retiro):
+        return ahorro - retiro
+    
+print(saldo (ahorro , retiro))
     
 print("Gracias por usar nuestro servicio bancario, vuelva pronto")
 
