@@ -79,5 +79,5 @@ else:
             print(estados_de_cuenta["usuario1"])
             confirmacion_menu = int(input("¿Desea hacer otra operación?, 1 para realizar un depósito, 2 para realizar un retiro, 3 para ver su estado de cuenta ó 4 para salir\n\t"))
         elif confirmacion_menu ==4:
-            print("Gracias por usar nuestro servicio bancario, vuelva pronto")
+            print("Gracias por usar nuestro servicio bancario, vuelva pronto") 
         
