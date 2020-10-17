@@ -1,0 +1,66 @@
+
+Ramón Martínez Delgado A01702917
+==========================1==============================
+
+Sub-competencia:
+componente: plantea una situación problema que le permite aplicar y demostrar sus conocimientos de programación (avance 1)
+
+Estoy planteando una situación que se ve día con dia, y e ido implementando los conocimientos adquiridos en clase
+
+==========================2==============================
+
+componente: usa la forma más a apropiada para guardar los datos (listas, variable, tipo de dato, etc...) (avance 5)
+
+Estoy usando las variables lo más apegadas a las usadas en las situaciones de la vida real, 
+	uso variables como saldo, depósito, retiro, 
+	Hago uso de listas para guardar datos de los usuarios
+
+==========================3==============================
+
+Aplica funciones de manera adecuada para segmentar el código y mantener reusabilidad y modularidad (avance 2)
+
+Todo mi programa desde la línea 19, hasta la 147, están las funciones definidas, 
+	para dar reusabilidad al código, y lo único que se pide al único es el input del usuario
+	para entrar a la función menú, y llamar a las demás funciones dependiendo el caso
+
+	Se agregaron las funciones 
+	def funcion_deposito()
+	def funcion_retiro()
+	def agregar transaccion()
+	def revisar historial()
+	def opcion_menu()
+Y las funciones auxiliares, para estar recibiendo una variable repetidas veces sin sobreescribirla
+	def cambiar_deposito()
+	def cambiar_retiro()
+
+==========================4==============================
+
+ El proyecto no contiene código basura (avance 1)
+
+Borré los datos que no tenían relevancia para el programa, dejando básicamente lo fundamental
+	para su funcionamiento correcto
+
+==========================5==============================
+
+El estilo cumple con las normas y estándares enunciadas en el documento de PEP 8  (avance 1)
+
+Usted escribió: Falta agregar comentarios para cumplir con PEP 8
+
+En el programa renovado, se agregaron los comentarios sobre el funcionamiento de cada función
+
+==========================6==============================
+
+Usa una biblioteca de python extra (a las vistas en el temario) que investiga por su cuenta (avance 1)
+
+En la línea 1 se implementó el uso de la nueva biblioteca externa llamada Colorama,
+	este se usa en cada print que tiene el programa, para darle color al texto
+
+==========================7==============================
+
+Explica como funciona la biblioteca extra (avance 1)
+
+En el programa, debajo de la biblioteca extra, en forma de comentario,
+	se explica brevemente la función de la biblioteca dentro del programa
+
+
+
