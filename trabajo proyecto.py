@@ -9,22 +9,8 @@ retiro = 0
 
 #Declaramos funciones
 """
-Esta función lo que hace es que me regresa el saldo después de realizar un depósito,
-para que no se sobreescriba el saldo en 0
+============================Funciones principales======================================= 
 """
-def cambiar_deposito(dinero, saldo):
-    saldo += dinero
-    print (Fore.GREEN + "Su saldo actual es de:\t" "%.2f" % saldo, "pesos mexicanos\n")
-    return saldo
-
-"""
-Esta función lo que hace es que me regresa el saldo después de realizar un retiro,
-para que no se sobreescriba el saldo en 0
-"""
-def cambiar_retiro(dinero, saldo):
-    saldo -= dinero
-    print (Fore.RED + "Su saldo actual es de:\t" "%.2f" % saldo, "pesos mexicanos\n")
-    return saldo
 
 """
 Esta función sirve para poder realizar un depósito,
@@ -47,6 +33,7 @@ def funcion_deposito ():
 Esta función sirve para poder realizar un retiro,
 le pide al usuario un monto a retirar, y se lo resta al saldo
 """
+
 def funcion_retiro (saldo): 
     retiro = float(input(Fore.RED + "Ingrese la cantidad a retirar\n\t"))
     if retiro > saldo:
@@ -66,6 +53,7 @@ Con esta función, el usuario puede agregar transacciones a su estado de cuenta,
 primero tiene que registrar su usuario, para después agregar transacciones,
 como lo sería el concepto,cantidad y monto, para después acceder.
 """
+
 def agregar_transaccion(usuario, usuarios):
     if usuario in usuarios:      
         concepto = str(input(Fore.CYAN + "Introduce el concepto de la transacción: \t"))
@@ -83,6 +71,7 @@ def agregar_transaccion(usuario, usuarios):
 Una vez ingresando el nombre y transacciones, ahora si se puede acceder al historial
 y ver el historial de transacciones que haya metido el usuario
 """
+
 def revisar_historial(usuario, usuarios):
     if not usuario in usuarios:
         usuarios[usuario] = []
@@ -101,6 +90,7 @@ def revisar_historial(usuario, usuarios):
 Esta función sirve como el menú de la interfaz,
 dependiendo la selección del usuario, va a mandar llamar las distintas funciones
 """
+
 def opcion_menu(confirmacion_menu):
     saldo = 0
     usuarios = {"usuario1":[]}
@@ -131,7 +121,34 @@ def opcion_menu(confirmacion_menu):
         elif confirmacion_menu == 5:
             print(Fore.CYAN + "Gracias por usar nuestro servicio bancario, vuelva pronto\n")
         print(Fore.CYAN + "Gracias por usar nuestro servicio bancario, vuelva pronto\n")
-        
+
+"""
+============================Funciones auxiliares============================================  
+"""   
+   
+"""
+Esta función lo que hace es que me regresa el saldo después de realizar un depósito,
+para que no se sobreescriba el saldo en 0
+"""
+
+def cambiar_deposito(dinero, saldo):
+    saldo += dinero
+    print (Fore.GREEN + "Su saldo actual es de:\t" "%.2f" % saldo, "pesos mexicanos\n")
+    return saldo
+
+"""
+
+Esta función lo que hace es que me regresa el saldo después de realizar un retiro,
+para que no se sobreescriba el saldo en 0
+"""
+def cambiar_retiro(dinero, saldo):
+    saldo -= dinero
+    print (Fore.RED + "Su saldo actual es de:\t" "%.2f" % saldo, "pesos mexicanos\n")
+    return saldo
+
+"""
+================================Parte principal del programa==================================
+"""
 
 #Este va a ser la interfaz de el menú del banco
 print ("Bienvenido a MazeBank\n")
